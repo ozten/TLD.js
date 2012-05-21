@@ -1,21 +1,31 @@
 # TLD.js
+**Note:** This kick-starter hasn't been submitted yet. Please fork and improve, file issues against the idea, etc.
+
 ``.io`` was an awesome TLD for projects like [Socket.io](http://socket.io/). What if we had **.js for fantastic 
 JavaScript** and Nodejs projects. You should have free or cheap domains for your Hacking pleasure.
 
 # Kickstarter
-The kickstart project is to raise the funds to apply for buying the .js top level domain.
+The kickstart project is to raise the funds to apply for buying the .js top level domain. An application is $180,000,
+plus $5000 as a deposit, plus an unknown amount for applicaiton disputes, etc.
 
 I've not done this before. I don't have $200,000 lying around. I need your help!
 
-# Rewards
+# Kickstarter Rewards
+To movitate partiscipation:
 
 ## $20
 Skip coffee for a week and join the TLD.js movement!
 
+Gets you ``webmaster4life`` status. Register up to 20 domains per year for free.
+
 Limited to first 10,000 pledges. No, seriously remember how fast JSConf sells out ;)
 
 ## $500
+Can you afford more? Passonite about the web and JS?
 
+Same benefits as ``webmaster4life`` as well as an invitation to join the goverance committee.
+
+Limited to first 50 pledges.
 
 # Why?
 Okay, this is kind of a vanity TLD, but we freaking build the web every day... shouldn't we have a TLD that 
