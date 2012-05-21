@@ -17,8 +17,8 @@ To movitate partiscipation:
 Skip coffee for a week and join the TLD.js movement!
 
 Gets you ``webmaster4life`` status. Register up to 20 domains per year for free.
-
-Limited to first 10,000 pledges. No, seriously remember how fast JSConf sells out ;)
+ 
+Limited to first 10,000 pledges. No, seriously, remember how fast JSConf sells out ;)
 
 ## $500
 Can you afford more? Passonite about the web and JS?
@@ -46,9 +46,12 @@ to navigate the unknown waters of securing our TLD.
 secure this TLD.
 
 # Who will run this?
-I'm offering to volunteer my time to organize this applicaiton process. If we get it, we'll create a 
-governance committee to figure how to best steward this beast. I'll volunteer my time to steer this for 
-the first couple years.
+[I](http://github.com/ozten) and the signers below, offer to volunteer our time to organize this applicaiton process. If we get it, we'll create a 
+governance committee to figure how to best steward this beast.
 
 An early suggestion would be getting under Mozilla.org's non-profit umbrella, but the we can 
 figure this out after a successful application.
+
+## Signers
+* [Austin King](http://github.com/ozten)
+* Fork and sign....
