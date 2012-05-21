@@ -57,4 +57,5 @@ figure this out after a successful application.
 * [Lloyd Hilaiel](https://github.com/lloyd)
 * [Irakli Gozalishvili](https://github.com/Gozala)
 * [Jed Parsons](https://github.com/jedp/)
+* [Anthony Catel](https://github.com/paraboul/)
 * Fork and sign....
