@@ -59,4 +59,5 @@ figure this out after a successful application.
 * [Jed Parsons](https://github.com/jedp/)
 * [Anthony Catel](https://github.com/paraboul/)
 * [Zach Carter](https://github.com/zaach)
+* [Ryan Freebern](https://github.com/rfreebern)
 * Fork and sign....
