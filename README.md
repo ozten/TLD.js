@@ -1,5 +1,8 @@
 # TLD.js
-**Note:** This kick-starter hasn't been submitted yet. Please fork and improve, file issues against the idea, etc.
+**Update:** Closing signing for now, we need to work through the two blocker issues, before this could move 
+forward as a kickstarter or other strategy.
+
+**Note:** This kick-starter hasn't been submitted yet. Please read and help solve open bugs.
 
 ``.io`` is an awesome general TLD for technical projects.  What if we had **.js for fantastic 
 JavaScript** and NodeJS projects?  If you invest your time into sharing JavaScript you should be 
@@ -74,4 +77,3 @@ figure this out after a successful application.
 * [John Le Drew](https://github.com/antz29)
 * [Casey Becking](https://github.com/caseybecking)
 * [Jake Luer](https://github.com/logicalparadox)
-* Fork and sign....
