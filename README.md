@@ -73,4 +73,5 @@ figure this out after a successful application.
 * [Victor Coulon](https://github.com/victa)
 * [John Le Drew](https://github.com/antz29)
 * [Casey Becking](https://github.com/caseybecking)
+* [Jake Luer](https://github.com/logicalparadox)
 * Fork and sign....
