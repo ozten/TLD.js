@@ -12,7 +12,7 @@ able to easily share your work on an affordable .js domain.
 The kickstart project is to raise the funds to apply for buying the .js top level domain. An application is $180,000,
 plus $5000 as a deposit, plus an unknown amount for application disputes and administrative fees.
 
-We don't have $200,000 lying around, and need your help!
+We don't have $200,000 lying around, and need your help! 
 
 # Kickstarter Rewards
 
@@ -23,7 +23,7 @@ To motivate participation:
 Skip coffee for a week and join the TLD.js movement!
 
 Gets you ``jsfounder`` status. Register up to 4 domains in an exclusive 1 month window 
-before general .js domain name availability.
+before general .js domain name availability. The perfect gift!
  
 Limited to first 10,000 pledges. No, seriously, remember how fast JSConf sells out ;)
 
@@ -33,11 +33,15 @@ Can you afford more? Passionate about the web and JS?
 
 Same benefits as ``jsfounder`` as well as an invitation to join the governance committee.
 
-Limited to first 50 pledges.
+Limited to first 50 pledges. 
+
+## $10000
+
+What are you, cheap? Prove your dedication to neckbeards and donate a grand. Comes with everything mentioned prior AND a special non-blocking handjob.
 
 # Why?
 Okay, this is kind of a vanity TLD, but we freaking build the web every day...  Shouldn't we have a TLD that 
-JS hackers control?
+JS hackers control? We want a destroy-the-internet-fast-to-type TLD!
 
 Domains will be granted to their obvious owners... jquery.js to jquery, node.js goes to the node project, etc.
 
