@@ -68,4 +68,5 @@ figure this out after a successful application.
 * [Andris Reinman](https://github.com/andris9)
 * [Juan Pablo Buritica](https://github.com/buritica)
 * [Anant Narayanan](https://github.com/anantn)
+* [Jake Luer](https://github.com/logicalparadox)
 * Fork and sign....
