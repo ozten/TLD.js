@@ -19,7 +19,7 @@ To motivate participation:
 
 Skip coffee for a week and join the TLD.js movement!
 
-Gets you ``javawebscriptmaster`` status. Register up to 4 domains in an exclusive 1 month window 
+Gets you ``jsninja`` status. Register up to 4 domains in an exclusive 1 month window 
 before general .js domain name availability.
  
 Limited to first 10,000 pledges. No, seriously, remember how fast JSConf sells out ;)
@@ -28,7 +28,7 @@ Limited to first 10,000 pledges. No, seriously, remember how fast JSConf sells o
 
 Can you afford more? Passionate about the web and JS?
 
-Same benefits as ``javawebscriptmaster`` as well as an invitation to join the governance committee.
+Same benefits as ``jsninja`` as well as an invitation to join the governance committee.
 
 Limited to first 50 pledges.
 
