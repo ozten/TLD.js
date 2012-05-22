@@ -62,4 +62,5 @@ figure this out after a successful application.
 * [Ryan Freebern](https://github.com/rfreebern)
 * [Andris Reinman](https://github.com/andris9)
 * [Juan Pablo Buritica](https://github.com/buritica)
+* [Anant Narayanan](https://github.com/anantn)
 * Fork and sign....
