@@ -1,35 +1,40 @@
 # TLD.js
 **Note:** This kick-starter hasn't been submitted yet. Please fork and improve, file issues against the idea, etc.
 
-``.io`` was an awesome TLD for projects like [Socket.io](http://socket.io/). What if we had **.js for fantastic 
-JavaScript** and Nodejs projects. You should have free or cheap domains for your Hacking pleasure.
+``.io`` is an awesome general TLD for technical projects.  What if we had **.js for fantastic 
+JavaScript** and NodeJS projects?  If you invest your time into sharing JavaScript you should be 
+able to easily share your work on an affordable .js domain.
 
 # Kickstarter
 The kickstart project is to raise the funds to apply for buying the .js top level domain. An application is $180,000,
-plus $5000 as a deposit, plus an unknown amount for applicaiton disputes, etc.
+plus $5000 as a deposit, plus an unknown amount for application disputes and administrative fees.
 
-I've not done this before. I don't have $200,000 lying around. I need your help!
+We don't have $200,000 lying around, and need your help!
 
 # Kickstarter Rewards
+
 To motivate participation:
 
 ## $20
+
 Skip coffee for a week and join the TLD.js movement!
 
-Gets you ``webmaster4life`` status. Register up to 20 domains per year for free.
+Gets you ``javawebscriptmaster`` status. Register up to 4 domains in an exclusive 1 month window 
+before general .js domain name availability.
  
 Limited to first 10,000 pledges. No, seriously, remember how fast JSConf sells out ;)
 
 ## $500
+
 Can you afford more? Passionate about the web and JS?
 
-Same benefits as ``webmaster4life`` as well as an invitation to join the governance committee.
+Same benefits as ``javawebscriptmaster`` as well as an invitation to join the governance committee.
 
 Limited to first 50 pledges.
 
 # Why?
-Okay, this is kind of a vanity TLD, but we freaking build the web every day... shouldn't we have a TLD that 
-we JS hackers control?
+Okay, this is kind of a vanity TLD, but we freaking build the web every day...  Shouldn't we have a TLD that 
+JS hackers control?
 
 Domains will be granted to their obvious owners... jquery.js to jquery, node.js goes to the node project, etc.
 
