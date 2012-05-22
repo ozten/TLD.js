@@ -9,8 +9,8 @@ JavaScript** and NodeJS projects?  If you invest your time into sharing JavaScri
 able to easily share your work on an affordable .js domain.
 
 # Kickstarter
-The kickstart project is to raise the funds to apply for buying the .js top level domain. An application is $180,000,
-plus $5000 as a deposit, plus an unknown amount for application disputes and administrative fees.
+The kickstart project is to raise the funds to apply for buying the .js top level domain. An application is $5,000,
+with a $180,000 deposit, plus an unknown amount for application disputes and administrative fees.
 
 We don't have $200,000 lying around, and need your help!
 
