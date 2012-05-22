@@ -70,4 +70,5 @@ figure this out after a successful application.
 * [Anant Narayanan](https://github.com/anantn)
 * [Andrew Chalkley](https://github.com/chalkers)
 * [Victor Coulon](https://github.com/victa)
+* [Chris Williams](https://github.com/voodootikigod)
 * Fork and sign....
