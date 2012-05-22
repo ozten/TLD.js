@@ -32,10 +32,6 @@ Same benefits as ``jsninja`` as well as an invitation to join the governance com
 
 Limited to first 50 pledges.
 
-## $10000
-
-Gold sponsor, you or your company logo featured on the homepage of the .js registry homepage.
-
 # Why?
 Okay, this is kind of a vanity TLD, but we freaking build the web every day...  Shouldn't we have a TLD that 
 JS hackers control?
