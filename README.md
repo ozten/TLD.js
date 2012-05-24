@@ -77,3 +77,4 @@ figure this out after a successful application.
 * [John Le Drew](https://github.com/antz29)
 * [Casey Becking](https://github.com/caseybecking)
 * [Jake Luer](https://github.com/logicalparadox)
+* [Chris Abrams](https://github.com/chrisabrams)
