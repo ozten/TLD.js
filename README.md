@@ -47,14 +47,14 @@ Domain squatters will not be tolerated, to the best of the projects ability to l
 
 # After Kickstarter
 Again, the governance committee would figure out how to make care and feeding of TLD.js sustainable
-and low maintence. This is not a for-profit venture. The Kick Starter is only to raise enough funds
+and low maintenance. This is not a for-profit venture. The Kick Starter is only to raise enough funds
 to navigate the unknown waters of securing our TLD.
 
 ``.js`` domains will be  as inexpensive as possible. We'll figure out a way to reward everyone who helped us 
 secure this TLD.
 
 # Who will run this?
-[I](http://github.com/ozten) and the signers below, offer to volunteer our time to organize this applicaiton process. If we get it, we'll create a 
+[I](http://github.com/ozten) and the signers below, offer to volunteer our time to organize this application process. If we get it, we'll create a 
 governance committee to figure how to best steward this beast.
 
 An early suggestion would be getting under Mozilla.org's non-profit umbrella, but the we can 
