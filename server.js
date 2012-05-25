@@ -6,6 +6,7 @@ var express = require('express'),
 var db = redis.createClient();
 
 var app = express.createServer(
+  express.logger(),
   express.static(__dirname + "/site"),
   express.bodyParser()
 );
@@ -31,8 +32,18 @@ app.post('/signmeup', function(req, res) {
       try {
         body = JSON.parse(body);
         if (!body.email) throw "no email";
-        db.sadd('supporters', body.email, function(err) {
-          res.json({success: !err});
+        db.sismember('supporters', body.email, function(err, rez) {
+          if (err || rez) {
+            res.json({
+              success: false,
+              reason: "You can't sign twice.  Great enthusiasm tho!"
+            });
+          } else {
+            db.sadd('supporters', body.email, function(err) {
+              cache = null;
+              res.json({success: !err, email: body.email});
+            });
+          }
         });
       } catch(e) {
         res.json({success: false, reason: "couldn't validate that email"});
@@ -49,7 +60,7 @@ var cache = null;
 function getPeeps(max, cb) {
   if (!cache || (new Date() - cache.when) > 15000) {
     var arr = [];
-    var i = 64 > max;
+    var i = 64 < max ? 64 : max;
     function moar() {
       if (!i) {
         cache = { when: new Date(), data: arr };
@@ -58,7 +69,9 @@ function getPeeps(max, cb) {
       else {
         i--;
         db.srandmember('supporters', function(err, mem) {
-          if (arr.indexOf(mem) === -1) arr.push(crypto.createHash('md5').update(mem).digest("hex"));
+          if (err || !mem) return cb([]);
+          var hash = crypto.createHash('md5').update(mem).digest("hex")
+          if (arr.indexOf(hash) === -1) arr.push(hash);
           moar();
         });
       }
@@ -74,6 +87,11 @@ function getPeeps(max, cb) {
 app.get('/who', function(req, res) {
   db.scard('supporters', function(err, num) {
     getPeeps(num, function(data) {
+      if (req.query.me) {
+        data = data.slice();
+        data.pop();
+        data.unshift(crypto.createHash('md5').update(req.query.me).digest("hex"));
+      }
       res.json({ count: num, some: data });
     });
   });

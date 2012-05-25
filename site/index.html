@@ -87,36 +87,45 @@ Signed by <span id="count">....</span> JavaScript Citizens.
 <div id="our_faces"></div>
 </p>
 
-<a id="sign" href="#">Sign The Petetion</a>.
+<div id="sign"><a href="#">Sign The Petetion</a>.</div>
 
 </section>
 </body>
 <script src="jquery.min.js"></script>
 <script src="https://browserid.org/include.js"></script>
 <script>
-$('#sign').click(function(ev) {
+$('#sign > a').click(function(ev) {
   navigator.id.get(function(assertion) {
     $.ajax({
       type: 'POST',
       url: '/signmeup',
       data: JSON.stringify({assertion: assertion}),
-      contentType: 'application/json'
-    }, function(data, textStatus) {
-      console.log(data, textStatus);
+      contentType: 'application/json',
+      success: function(data) {
+        console.log('foo');
+        if (data.success) {
+          $("#sign").text("Thanks for your support!  Your voice has been heard!");
+          update(data.email);
+        } else {
+          $("#sign").text(data.reason);
+        }
+      }
     });
   });
 });
 
-$(document).ready(update);
+$(document).ready(function() { update(); });
 
-function update() {
-  $.get('/who', function(data) {
+function update(me) {
+  var url = '/who';
+  if (me) url += ('?me=' + window.encodeURI(me));
+
+  $.get(url, function(data) {
     $('#count').text(data.count);
     var of = $('#our_faces');
     of.empty();
     for (var i = 0; i < data.some.length; i++) {
       $('<img/>').attr('src', 'http://www.gravatar.com/avatar/' + data.some[i] + '?s=50').appendTo(of);
-      console.log(of);
     }
   });
 }
