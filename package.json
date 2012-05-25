@@ -1,0 +1,19 @@
+{
+  "name": "wewantjs.org",
+  "description": "We want the .js TLD",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.0",
+    "redis": "0.7.1"
+  },
+  "optionalDependencies": {
+    "hiredis": "0.1.14"
+  },
+  "devDependencies": {
+    "awsbox": "0.0.10"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
