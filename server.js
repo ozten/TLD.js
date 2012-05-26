@@ -60,9 +60,11 @@ var cache = null;
 function getPeeps(max, cb) {
   if (!cache || (new Date() - cache.when) > 15000) {
     var arr = [];
-    var i = 64 < max ? 64 : max;
+    var max = (64 < max ? 64 : max);
+    console.log(max);
+    var i = (max * 2).toFixed();
     function moar() {
-      if (!i) {
+      if (!i || arr.length >= max) {
         cache = { when: new Date(), data: arr };
         cb(arr);
       }
@@ -89,7 +91,7 @@ app.get('/who', function(req, res) {
     getPeeps(num, function(data) {
       if (req.query.me) {
         data = data.slice();
-        data.pop();
+        if (data.length >= 64) data.pop();
         data.unshift(crypto.createHash('md5').update(req.query.me).digest("hex"));
       }
       res.json({ count: num, some: data });
