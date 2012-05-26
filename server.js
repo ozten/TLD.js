@@ -72,6 +72,7 @@ function getPeeps(max, cb) {
         i--;
         db.srandmember('supporters', function(err, mem) {
           if (err || !mem) return cb([]);
+          mem = mem.toLowerCase();
           var hash = crypto.createHash('md5').update(mem).digest("hex")
           if (arr.indexOf(hash) === -1) arr.push(hash);
           moar();
@@ -92,6 +93,7 @@ app.get('/who', function(req, res) {
       if (req.query.me) {
         data = data.slice();
         if (data.length >= 64) data.pop();
+        req.query.me = req.query.me.toLowerCase();
         data.unshift(crypto.createHash('md5').update(req.query.me).digest("hex"));
       }
       res.json({ count: num, some: data });
