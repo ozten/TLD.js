@@ -15,11 +15,6 @@
     width: 800px;
     margin: 10px auto;
   }
-  a {
-    text-decoration: none;
-    border-bottom: 1px dashed #333;
-    color: #000;
-  }
   #count {
     color: #c00;
     font-size: 1.5em;
@@ -31,6 +26,7 @@
     margin: 0;
     width: 800px;
     height: 200px;
+    margin: 25px 0;
   }
   #our_faces img {
     margin: 0;
@@ -45,6 +41,26 @@
     height: 160px;
     padding: 5px;
   }
+  #sign { 
+    margin-top: .5em;
+    float: right;
+  }
+  #sign a {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #017AFF;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  #sign a:hover {
+    opacity: .6;
+  }
+
 </style>
 </head>
 <body>
@@ -85,6 +101,7 @@ Are we not already a <strong>virtual nation of JavaScript</strong>? Must we foun
 What do we want? <strong>The .js TLD</strong>. When do we want it?  <strong>Now!</strong>
 </p>
 
+<div id="sign"><a href="#">Sign The Petition</a></div>
 <p>
 Signed by <span id="count">....</span> JavaScript Citizens.
 </p>
@@ -93,7 +110,6 @@ Signed by <span id="count">....</span> JavaScript Citizens.
 <div id="our_faces"></div>
 </p>
 
-<div id="sign"><a href="#">Sign The Petition</a>.</div>
 
 </section>
 </body>
