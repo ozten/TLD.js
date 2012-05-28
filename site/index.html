@@ -14,6 +14,7 @@
     width: 800px;
     margin: 10px auto;
   }
+
   #count {
     color: #c00;
     font-size: 1.5em;
@@ -33,13 +34,21 @@
     float: left;
   }
   #logo {
-    position: absolute;
-    position: block;
-    left: -200px;
-    width: 160px;
     height: 160px;
     padding: 5px;
+    float: right;
   }
+
+@media all and (min-width: 1200px) {
+  #logo {
+    float: none;
+    position: absolute;
+    position: block;
+    right: -190px;
+    width: 160px;
+  }
+}
+
   #sign { 
     margin-top: .5em;
     float: right;
