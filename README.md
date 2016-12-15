@@ -1,5 +1,5 @@
 # TLD.js
-**Update:** Closing signing for now, we need to work through the two blocker issues, before this could move 
+**Update:** Closing signing for now, since we need to work through the two blocker issues, before this could move 
 forward as a kickstarter or by other means of funding.
 
 **Note:** This kick-starter hasn't been submitted yet. Please read and help solve open bugs.
@@ -22,7 +22,7 @@ To motivate participation:
 
 Skip coffee for a week and join the TLD.js movement!
 
-Gets you ``jsfounder`` status. Register up to 4 domains in an exclusive 1 month window 
+You get ``jsfounder`` status. Register up to 4 domains in an exclusive 1 month window 
 before general .js domain name availability.
  
 Limited to first 10,000 pledges. No, seriously, remember how fast JSConf sells out ;)
