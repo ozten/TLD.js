@@ -1,6 +1,6 @@
 # TLD.js
 **Update:** Closing signing for now, we need to work through the two blocker issues, before this could move 
-forward as a kickstarter or other strategy.
+forward as a kickstarter or by other means of funding.
 
 **Note:** This kick-starter hasn't been submitted yet. Please read and help solve open bugs.
 
