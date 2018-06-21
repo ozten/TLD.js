@@ -54,7 +54,7 @@ TLD.js is not a for-profit venture. The Kick Starter is only to raise enough fun
 secure this TLD.
 
 # Who will run this?
-[I](http://github.com/ozten) and the signers below, have offered to volunteer their time to organize this applicaiton process. If we successfully get the `.js` TLD, , we'll create a governance committee to figure how to best steward this beast.
+[I](http://github.com/ozten) and the signers below, have offered to volunteer their time to organize this application process. If we successfully get the `.js` TLD, , we'll create a governance committee to figure how to best steward this beast.
 
 An early suggestion would be getting under Mozilla.org's non-profit umbrella, but we can figure this out after a successful application.
 
