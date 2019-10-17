@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "2.5.0",
+    "express": "4.17.1",
     "redis": "0.7.1"
   },
   "optionalDependencies": {
