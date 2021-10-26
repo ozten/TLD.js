@@ -58,6 +58,11 @@ secure this TLD.
 
 An early suggestion would be getting under Mozilla.org's non-profit umbrella, but we can figure this out after a successful application.
 
+/*
+It is important that JS developers become responsible of .js,
+Npm and github have been bought, autonomy is at risk 
+*/
+
 ## Signers
 * [Austin King](http://github.com/ozten)
 * [Lloyd Hilaiel](https://github.com/lloyd)
@@ -75,3 +80,4 @@ An early suggestion would be getting under Mozilla.org's non-profit umbrella, bu
 * [John Le Drew](https://github.com/antz29)
 * [Casey Becking](https://github.com/caseybecking)
 * [Jake Luer](https://github.com/logicalparadox)
+* [Jose "jolsadoil" Estremadoyro](https://github.com/zardilior)
